@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SAML Test</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <% if (!username) { %>
+      <script>
+      setTimeout(function(){document.location='https://localhost:443/login';}, 1);
+      </script>
+    <% } else { %>
+    <h2>Hello, <%= username %> - <%= first %> <%= last %>, .</h2>
+    (your unqiue-id is <%= addressDetails %> - <%= mail %>)
+    <% } %>
+  </body>
+</html>
