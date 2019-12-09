@@ -19,5 +19,5 @@ Note: Mail will not appear on AD users that don't have a registered mail app.
 
 #### Login Instructions:
 
-Username: demo1@thinkitcss.onmicrosoft.com
+Username: demo1@thinkitccs.onmicrosoft.com
 Password: Jufo9290
